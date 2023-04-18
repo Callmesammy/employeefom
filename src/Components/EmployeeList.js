@@ -15,6 +15,14 @@
               <th className="text-sm text-gray-500 px-4 py-2 tracking-wider text-right uppercase"> Actions</th>
             </tr>
             </thead>
+            <tbody>
+              <tr>
+                <td>Samson</td>
+                <td>Moses</td>
+                <td>callmeSammy@yahoo.com</td>
+                <td>*</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
