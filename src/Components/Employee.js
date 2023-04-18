@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import EmployeeService from './Service/EmployeeService';
+import EmployeeService from '../Service/EmployeeService';
 
 function Employee ()  {
     

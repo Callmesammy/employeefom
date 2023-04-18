@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Employee from './Employee';
-import Navbar from './Navbar';
-import EmployeeList from '../EmployeeList';
+import Employee from './Components/Employee';
+import Navbar from './Components/Navbar';
+import EmployeeList from './Components/EmployeeList';
 
 function App() {
   return (
@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Routes index element = {<EmployeeList/>}></Routes>
-      <Routes path= "/" element={<EmployeeList/>}></Routes>
-      <Routes path= "employeeList" element={<EmployeeList/>}></Routes>
-      <Routes path= "employee" element={<Employee/>}></Routes>
+    <Route index element={<EmployeeList/>}/>
+    <Route path="/" element={<EmployeeList/>}/><Route/>
+    <Route path = "/employeelist" element={<EmployeeList/>}/> 
+    <Route path="/employee" element={<Employee/>}/>
     </Routes>
     </BrowserRouter>
     
