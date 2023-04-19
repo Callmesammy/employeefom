@@ -17,10 +17,17 @@
             </thead>
             <tbody>
               <tr>
-                <td>Samson</td>
-                <td>Moses</td>
-                <td>callmeSammy@yahoo.com</td>
-                <td>*</td>
+                <td className="text-left py-6 px-4 whitespace-nowrap">
+                  <div className="text- text-left text-gray-500">Samson</div>
+                </td>
+                <td className="whitespace-nowrap py-6 px-4">
+                  <div className=" text-sm text-left text-gray-500">Moses</div></td>
+                <td className="whitespace-nowrap py-6 px-4"><div className="text-sm text-left text-gray-500">callmeSammy@yahoo.com</div></td>
+                <td className="whitespace-nowrap py-6 px-4 text-right">
+                  <a href="#" className="text-sm text-purple-600 hover:text-purple-900  tracking-wider font-semibold mx-2">Edit</a>
+                  <a href="#"  className="text-sm text-purple-600 hover:text-purple-900 tracking-wider font-semibold ">Delete</a>
+
+                </td>
               </tr>
             </tbody>
           </table>
